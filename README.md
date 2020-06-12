@@ -85,7 +85,7 @@ mydb = mysql.connector.connect(
   user="yourusername",    # 数据库用户名
   passwd="yourpassword"   # 数据库密码
 )
-print(mydb)
+print(mydb)  
 ```
 
 * ### mysql配置参考链接：
@@ -102,9 +102,9 @@ if __name__ == "__main__":
     spider.main()
 ```
 ## 运行结果
-<img src="https://github.com/shining160/lagou_spider/lagou.png" width="50%">
-<img src="https://github.com/shining160/lagou_spider/lagou_date.png" width="50%">
-<img src="https://github.com/shining160/lagou_spider/lagou_jobs.png" width="50%">
+<img src="https://github.com/shining160/lagou_spider/blob/master/lagou.png" width="50%">
+<img src="https://github.com/shining160/lagou_spider/blob/master/lagou_data.png" width="50%">
+<img src="https://github.com/shining160/lagou_spider/blob/master/lagou_jobs.png" width="50%">
 
 ## 待改进
 * 配置单独的线程处理代理池的变化，避免频繁抓取代理网站
