@@ -14,10 +14,9 @@ python版本：python 3.8.3
 
 ## 运行前的配置
 * ### Mysql (windows安装说明)
-```text
 下载mysql(zip包):
-<https://dev.mysql.com/downloads/mysql/>
-
+<https://dev.mysql.com/downloads/mysql/>  
+```text
 解压到安装目录：
 例如：D:\Softwares\mysql-8.0.20
 
