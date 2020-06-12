@@ -14,9 +14,8 @@ python版本：python 3.8.3
 
 ## 运行前的配置
 * ### Mysql (windows安装说明)
-```text
 下载mysql(zip包):
-https://dev.mysql.com/downloads/mysql/
+<https://dev.mysql.com/downloads/mysql/>
 
 解压到安装目录：
 D:\Softwares\mysql-8.0.20
@@ -86,7 +85,7 @@ mydb = mysql.connector.connect(
   passwd="yourpassword"   # 数据库密码
 )
 print(mydb)  
-```
+
 
 * ### mysql配置参考链接：
 <https://blog.csdn.net/u010505080/article/details/100026611>  
@@ -102,9 +101,9 @@ if __name__ == "__main__":
     spider.main()
 ```
 ## 运行结果
-<img src="https://github.com/shining160/lagou_spider/blob/master/lagou.png" width="50%">
-<img src="https://github.com/shining160/lagou_spider/blob/master/lagou_data.png" width="50%">
-<img src="https://github.com/shining160/lagou_spider/blob/master/lagou_jobs.png" width="50%">
+<img src="https://github.com/shining160/lagou_spider/blob/master/lagou.png">
+<img src="https://github.com/shining160/lagou_spider/blob/master/lagou_data.png">
+<img src="https://github.com/shining160/lagou_spider/blob/master/lagou_job.png">
 
 ## 待改进
 * 配置单独的线程处理代理池的变化，避免频繁抓取代理网站
