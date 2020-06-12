@@ -14,11 +14,12 @@ python版本：python 3.8.3
 
 ## 运行前的配置
 * ### Mysql (windows安装说明)
+```text
 下载mysql(zip包):
 <https://dev.mysql.com/downloads/mysql/>
 
 解压到安装目录：
-D:\Softwares\mysql-8.0.20
+例如：D:\Softwares\mysql-8.0.20
 
 在安装目录下创建my.ini配置文件，配置以下信息：
 [mysqld]
@@ -85,6 +86,7 @@ mydb = mysql.connector.connect(
   passwd="yourpassword"   # 数据库密码
 )
 print(mydb)  
+```
 
 
 * ### mysql配置参考链接：
